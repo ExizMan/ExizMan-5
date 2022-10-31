@@ -1,0 +1,249 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    
+    header {
+    background-color: #eeff00;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px;
+    font-size: 0.5em;
+    }
+    
+    body {
+    
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: rgb(197, 191, 191);
+    font-size: 16px;
+    }
+    
+    footer {
+    background-color: #ffffff;
+    padding: 10px;
+    }
+    
+    
+    .logoPNG {
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 5%;
+    }
+    
+    
+    
+    .zagolovok {
+    margin-left: 20px;
+    color: #000;
+    font-family: sans-serif;
+    text-align: center;
+    }
+    
+    .navigation {
+    margin: 0 auto;
+    text-align: center;
+    background-color: #c9c5c5;
+    max-width: 960px;
+    }
+    
+    .navigation li {
+    color: rgb(165, 29, 29);
+    font-weight: bold;
+    font-size: 0.9em;
+    margin-right: 15px;
+    padding: 5px 0;
+    
+    }
+    input {
+    font-size: 1em;
+    }
+    .navigation ul {
+    list-style: none;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    }
+    
+    .navigation li a:hover {
+    border-radius: 20px 5px;
+    background-color: #9e9898;
+    color: rgb(172, 158, 158);
+    }
+    
+    table {
+    color: black;
+    border: 1px solid black;
+    }
+    
+    td, th {
+    padding: 5px 10px;
+    font-size: 1em;
+    border: 1px solid black;
+    text-align: center;
+    }
+    
+    .tab0 {
+    background-color: white;
+    }
+    
+    .tab1 {
+    background-color: green;
+    }
+    textarea {
+    width: 200px;
+    height: 100px;
+    }
+    img {
+    width: 200px;
+    height: fit-content;
+    }
+    .tab2 {
+    background-color: yellow;
+    }
+    
+    .content {
+    margin: 0 auto;
+    font-size: 0.8em;
+    width: 100%;
+    max-width: 960px;
+    background-color: white;
+    padding: 10px;
+    }
+    
+    .content ol {
+    padding: 30px;
+    }
+    .container__calc h4{
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 12em;
+    font-size: 2em;
+    
+    }
+    
+    .container__calc p {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 16em;
+    font-size: 1em;
+    
+    }
+    .container__calc button {
+    
+    width: 8em;
+    font-size: 1.2em;
+    margin: 0 auto;
+    display: block;
+    margin-top: 20px;
+    
+    
+    }
+    
+    @media screen and (min-width: 321px) {
+    body {
+    font-size: 20px;
+    }
+    .navigation ul {
+    flex-direction: column;
+    }
+    }
+    @media screen and (min-width: 600px) {
+    .logoPNG {
+    width: 200px;
+    }
+    body {
+    font-size: 26px;
+    }
+    .navigation ul {
+    flex-direction: column;
+    }
+    textarea {
+    width: 400px;
+    }
+    }
+    @media screen and (min-width: 769px) {
+    .navigation ul {
+    font-size: 0.8em;
+    flex-direction: column;
+    }
+    .navigation ul li {
+    margin-right: 30px;
+    }
+    .content h1 {
+    font-size: 1.5em;
+    }
+    input.formAd {
+    width: 8em;
+    }
+    label{
+    font-size: 1.6;
+    }
+    
+    .formAd {
+    width: 30px;
+    height: 30px;
+    }
+    .contract {
+    width: 30px;
+    height: 30px;
+    }
+    
+    select {
+    font-size: 0.5em;
+    }
+    }
+    @media screen and (min-width: 992px) {
+    body {
+    font-size: 18px;
+    }
+    
+    .navigation ul {
+    font-size: 0.8em;
+    flex-direction: row;
+    font-size: 1.5em;
+    }
+    table th, td, label {
+    font-size: 2em;
+    }
+    .formAd {
+    width: 1em;
+    height: 1em;
+    }
+    .contract {
+    width: 1em;
+    height: 1em;
+    }
+    .content {
+    padding: 20px 40px;
+    }
+    img {
+    width: 300px;
+    height: fit-content;
+    }
+    
+    form {
+    font-size: 1em;
+    padding: 6px 10px;
+    }
+    input.formAd {
+    width: 8em;
+    }
+    label{
+    font-size: 1.4em;
+    }
+    select {
+    font-size: 1.2em;
+    }
+    .zagolovok{
+    margin-left: 120px;
+    font-size: 1.2em;
+    }
+    }
